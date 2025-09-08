@@ -15,8 +15,6 @@ img_size = 28
 
 # 저장된 모델 불러오기
 model = keras.models.load_model("model_cnn_final.keras")
-# model = build_model()
-# model.load_weights("model_cnn.weights.h5")
 
 # 예측 함수
 def predict(img):
